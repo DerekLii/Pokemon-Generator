@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Maven Pro";
+  font-size: 30px;
+}
+
+body {
+  background: url(epic.jpg);
+}
+
+#pokemon {
+  position: relative;
+  width: 430px;
+  height: 600px;
+  margin: auto;
+  background: url(backgrounds/1.png);
+  z-index: 98;
+  margin-top: 3%;
+}
+
+#back {
+  left: 9.1%;
+  top: 10.6%;
+  width: 347px;
+  height: 230px;
+  position: absolute;
+  z-index: 3;
+  background: url(scenery/1.jpg);
+}
+
+img {
+  position: absolute;
+  z-index: 4;
+  left: 15%;
+  top: 5%;
+  width: 300px;
+}
+
+.name {
+  position: absolute;
+  left: 27%;
+  top: 3%;
+}
+
+.details {
+  position: absolute;
+  top: 54%;
+  left: 7%;
+}
+
+button {
+  position: absolute;
+  border-radius: 50%;
+  top: 150px;
+  left: 120px;
+  width: 500px;
+  height: 200px;
+  background-color: #7239db;
+  border: #e8d933 5px solid;
+  font-size: 88px;
+  transition: all 0.5s ease;
+  color: #e8d933;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #e8d933;
+  border: #7239db 5px solid;
+  color: #7239db;
+}
